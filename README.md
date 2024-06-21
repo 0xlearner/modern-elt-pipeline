@@ -12,4 +12,10 @@ After loading the data into the data warehouse, we move on to the data modeling 
 
 Once the data is transformed using dbt, we perform additional data quality checks with Soda to ensure the integrity of the transformed data.
 
+To start the you just need to trigger the ```start``` dag manually which will produce the Dataset which will trgger the rest of the pipeline.
+
+![airflow](https://github.com/0xlearner/modern-elt-pipeline/blob/main/images/2024-06-20_16-15-10.png)
+
 With the dimension and fact tables generated, we create simple reports based on the data, such as the top 10 products by quantity sold, total revenue per month, and primary markets. To visualize these reports, we utilize Metabase, a powerful open-source business intelligence tool, to create an interactive dashboard for data visualization.
+![metabase](https://github.com/0xlearner/modern-elt-pipeline/blob/main/images/2024-06-20_16-15-10.png)
+
