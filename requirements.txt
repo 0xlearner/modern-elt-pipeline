@@ -1,0 +1,4 @@
+duckdb==1.0.0
+minio==7.2.7
+pyarrow==16.1.0
+astronomer-cosmos==1.4.3

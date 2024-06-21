@@ -1,0 +1,5 @@
+data_source retail:
+  type: duckdb
+  path: /opt/airflow/include/DWH/dwh.db
+  read_only: true
+  schema_name: public

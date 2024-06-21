@@ -1,0 +1,6 @@
+retail:
+  target: dev
+  outputs:
+    dev:
+      type: duckdb
+      path: /opt/airflow/include/DWH/dwh.db

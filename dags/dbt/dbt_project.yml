@@ -1,0 +1,33 @@
+name: 'retail'
+
+profile: 'retail'
+
+models:
+  retail:
+    country:
+      materialized: view
+      schema: main
+    raw_online_retail_table:
+      materialized: view
+      schema: main
+    dim_customer:
+      materialized: table
+      schema: main
+    dim_datetime:
+      materialized: table
+      schema: main
+    dim_product:
+      materialized: table
+      schema: main
+    fct_invoices:
+      materialized: table
+      schema: main
+    report_customer_invoices:
+      materialized: table
+      schema: main
+    report_product_invoices:
+      materialized: table
+      schema: main
+    report_year_invoices:
+      materialized: table
+      schema: main

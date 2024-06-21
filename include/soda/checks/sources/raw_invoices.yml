@@ -1,0 +1,12 @@
+checks for raw_online_retail_table:
+  - schema: 
+      fail:
+        when required column missing: [InvoiceNo, StockCode, Quantity, InvoiceDate, UnitPrice, CustomerID, Country]
+        when wrong column type:
+          InvoiceNo: varchar
+          StockCode: varchar
+          Quantity: bigint
+          InvoiceDate: varchar
+          UnitPrice: double
+          CustomerID: bigint
+          Country: varchar

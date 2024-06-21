@@ -1,0 +1,8 @@
+.env
+.github
+logs
+ignored
+__pycache__
+dags/dbt/dbt_packages
+target/
+include/DWH/dwh.db

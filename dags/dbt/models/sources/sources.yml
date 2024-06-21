@@ -1,0 +1,8 @@
+version: 2
+
+sources:
+  - name: retail
+    schema: main
+    tables:
+      - name: raw_online_retail_table
+      - name: country
