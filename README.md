@@ -17,5 +17,5 @@ To start the you just need to trigger the ```start``` dag manually which will pr
 ![airflow](https://github.com/0xlearner/modern-elt-pipeline/blob/main/images/2024-06-20_16-15-10.png)
 
 With the dimension and fact tables generated, we create simple reports based on the data, such as the top 10 products by quantity sold, total revenue per month, and primary markets. To visualize these reports, we utilize Metabase, a powerful open-source business intelligence tool, to create an interactive dashboard for data visualization.
-![metabase](https://github.com/0xlearner/modern-elt-pipeline/blob/main/images/2024-06-20_16-15-10.png)
+![metabase](https://github.com/0xlearner/modern-elt-pipeline/blob/main/images/Screenshot%20from%202024-06-21%2015-02-15.png)
 
